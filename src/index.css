@@ -1,0 +1,458 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width: 100%;
+  height:100%;
+}
+
+.modalBackground{
+  width:100vw;
+  height:100vh;
+  background:rgba(123, 123, 123, 0.5);
+  position:fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.entryModal{
+  width:85vw;
+  height:80vh;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  background: rgb(84, 84, 84);
+  border-radius: 50vh;
+  z-index: 1;
+  color: white;
+  font-family: 'Black Han Sans', sans-serif;  
+  font-size: 4vh;
+}
+
+.scroll{
+  height: 56vh;
+  background-image: url("./img/bench.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 44vh;
+  padding-left: 7vw;
+  opacity: 1;
+  z-index: .1;
+}
+.scrollDown{
+  background: rgba(60, 60, 60, 0.7);
+  padding:5vh;
+  font-size: 8vh;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  z-index: .9;
+  font-family: 'Black Han Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  width:40vw;
+  height:40vh;
+  border-radius: 15px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  mix-blend-mode: darken;  
+}
+
+
+.buffer{
+  width:100vw;
+  height:50vh;
+  background: black;
+}
+
+.what{
+  height: 30vh;
+  background-image: url("./img/eyes.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:25vh;
+  padding-left:67vw;
+  background-position: center center;
+}
+
+.whatText{
+  font-size: 3.5vh;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  z-index: .9;
+  height:64%;
+  font-family: 'Black Han Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  mix-blend-mode: multiply;  
+  width:30vw;
+  height:20vh;
+  background: rgb(75, 86, 108); 
+}
+
+
+.detail{
+  background-image: url("./img/beach2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:5vh;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+}
+
+.detailText{
+  padding-left: 10vw;
+  padding-right: 10vw;
+  font-size: 6vh;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  z-index: .9;
+  height:64%;
+  font-family: 'Black Han Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  width:70vw;
+  height:79vh;
+  mix-blend-mode: hard-light;  
+  background: rgb(103, 0, 0);  
+  color: rgb(255, 255, 255);
+  
+}
+.left{
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top:10vh;
+  padding-bottom:10vh;
+}
+
+.right{
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  flex-direction:column; 
+  justify-content: space-between;
+  align-items: center;
+  padding-top:10vh;
+  padding-bottom:10vh;
+  font-size: 8vw;
+  color: rgba(255, 255, 255, 0.488);
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+.left2{
+  background-image: url("./img/honeyhole.jpg");
+  height: 300px;
+  width: 80%;
+  top: 0;
+  left: 0;
+  background-size:cover; 
+  background-repeat: no-repeat;
+  transition: all .5s ease;
+  background-position: center center;
+}
+
+.left2:hover{
+  transform: scale(1.1);
+}
+
+.left3{
+  height: 100%;
+  Width: 100%;
+  background-size:cover; 
+  background-repeat: no-repeat;
+  transition: all .5s ease;
+  opacity: .9;
+  color:rgba(0, 0, 0, 0);
+  font-size: 7vh;
+  display: flex;
+  flex-direction:column; 
+  justify-content: center;
+  align-items: center;
+  font-family: 'Black Han Sans', sans-serif;  
+}
+
+.left3:hover{
+  opacity: 1;
+  background: rgba(67, 67, 67, 0.399);
+  color:white;
+}
+
+.right2{
+  background-image: url("./img/andy.jpg");
+  height: 300px;
+  width: 80%;
+  top: 0;
+  left: 0;
+  background-size:cover; 
+  background-repeat: no-repeat;
+  transition: all .5s ease;
+  background-position: center center;
+}
+
+.right2:hover{   
+  transform: scale(1.1);
+}
+.right3{
+  height: 100%;
+  Width: 100%;
+  background-size:cover; 
+  background-repeat: no-repeat;
+  transition: all .5s ease;
+  opacity: .9;
+  color:rgba(0, 0, 0, 0);
+  font-size: 5vh;
+  display: flex;
+  flex-direction:column; 
+  justify-content: center;
+  align-items: center;
+}
+
+.right3:hover{
+  background: rgba(67, 67, 67, 0.399);
+  color: white;
+}
+
+.contact{
+  width: 100vw;
+  height: 740px;
+  background-image: url("./img/beach.jpg");  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction:column; 
+  justify-content: center;
+  align-items: center;
+}
+
+.contactText{
+  padding-left: 10vw;
+  padding-right: 10vw;
+  font-size: 6vh;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  z-index: .9;
+  height:64%;
+  font-family: 'Black Han Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  width:70vw;
+  height:79vh;
+  color: rgb(255, 255, 255);
+}
+
+.contactHeader{
+  padding:5vh;
+  background:rgba(123, 123, 123, 0.5);
+  color: rgb(255, 255, 255);
+}
+.exampleLink{
+width:100vw;
+height: 740px;  
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+background-image: url("./img/yarn.jpg");
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+ 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: line-through;
+  text-decoration-style: double;
+  text-decoration-color: black;
+
+}
+
+.senderInfo{
+  margin: 5%;
+}
+
+.input2{
+  background-color: rgba(0, 0, 0, 0.7); 
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  height:25px;
+  width: 150px;
+  border-radius: 5px;
+  margin: 2%;
+  color: white;
+  font-family: 'Black Han Sans', sans-serif;  
+}
+
+.input3{
+  width: 100%;
+  height: 150px;
+  padding: 2px;
+  background-color: rgba(0, 0, 0, .7); 
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Black Han Sans', sans-serif;  
+}
+
+.button{
+  width: 100%;
+  background-color: rgb(76, 173, 79); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 5%;
+  border-radius: 5px;
+  transition: background-color 1s ease;
+  -webkit-transition: background-color 1s ease;
+  font-family: 'Black Han Sans', sans-serif;  
+  
+}
+
+.button:hover{
+  width: 100%;
+  background-color: rgba(76, 173, 79, .5); /* Green */
+}
+
+.button2{
+  width: 50%;
+  background-color: rgb(76, 173, 79); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 5%;
+  border-radius: 5px;
+  transition: background-color 1s ease;
+  -webkit-transition: background-color 1s ease;
+  font-family: 'Black Han Sans', sans-serif;    
+}
+
+.button2:hover{
+  background-color: rgba(76, 173, 79, .5); /* Green */
+}
+
+@media (max-width: 720px){
+  .detailText{
+    font-size: 4vh;
+  }
+  .exampleLink{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left{
+    width: 100%;
+  }
+
+  .left2{
+    width:53.8%;
+    height: 200px;
+    margin:4%;
+  }
+
+  .right{
+    width: 100%;
+  }
+
+  .right2{
+    height:200px;
+    width:52.8%;
+    margin:4%;
+  }
+}
+
+@media (max-width:667px){
+  .scroll{
+    background: white;
+  }
+
+  .buffer{
+    height:5vh;
+  }
+
+  .what{
+    background: white;
+  }
+
+  .detail{
+    background: white;
+  }
+
+  .detailText{
+    background: rgba(103, 0, 0, .7);
+  }
+
+  .exampleLink{
+    background: white;
+    height:660px;
+  }
+
+  .right{
+    color: black;
+  }
+
+  .contact{
+    background: rgb(255, 255, 255);
+    height:660px;
+  }
+}
+
+@media (max-width:500px){
+  .right3{
+    font-size:3vh;
+  }
+
+  .left3{
+    font-size:3vh;
+  }
+}
+
+@media (max-width:355px) {
+  .detailText{
+    font-size: 3vh;
+  }
+}
+
